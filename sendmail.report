@@ -1,0 +1,4 @@
+# sendmail app use flask_mail + rabbitmq + celery
+	flask_mail: send mail extension
+	rabbitmq: messaging broker > hold send and receive messages as QUEUES
+	celery: distribute QUEUES as TASKS
